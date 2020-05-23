@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './containers/App/App';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <App title='Sai Subash Penneru' />,
+  <App />,
   document.getElementById('root')
 );
 
